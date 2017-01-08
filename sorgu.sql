@@ -15,8 +15,8 @@ insert into ders(kod,ad)
 values('201601','fizik')
 
 UPDATE ders
-SET kod = '201602'
-WHERE ad = 'kimya'
+SET kod = '201602', adi='kimya'
+WHERE kod = '201601'
 
 DELETE FROM ders
 WHERE kod='201601'

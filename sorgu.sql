@@ -3,8 +3,8 @@ insert into ogrenci(ogno,ad)
 values('01','ali kara')
 
 UPDATE ogrenci
-SET ogno = '02'
-WHERE ad = 'ayşe kara'
+SET ogno = '02', ad='ayşe kara'
+WHERE ogno = '01'
 
 DELETE FROM ogrenci
 WHERE ogno='01'
